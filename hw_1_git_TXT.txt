@@ -1,14 +1,14 @@
-TXT
+
  1. Создать внешний репозиторий c названием TXT.
+Repositories -> New-> "Repository name":"JSON" -> "Create repository"
 
  2. Клонировать репозиторий TXT на локальный компьютер.
 git clone https://github.com/allat55a/TXT.git
 
  3. Внутри локального TXT создать файл “new.txt”.
-cd TXT
+touch new.txt
 
  4. Добавить файл под гит.
-touch new.txt
 git add new.txt
 
  5. Закоммитить файл.
@@ -21,9 +21,7 @@ git push
 cat >> new.txt
 
  8. Отправить изменения на внешний репозиторий.
-git add new.txt
-git commit
-git push
+git add new.txt; git commit; git push
 
  9. Создать файл preferences.txt
 touch preferences.txt
@@ -35,19 +33,22 @@ vim preferences.txt
 cat > skills.txt
  
  12. Сделать коммит в одну строку.
-git add .
- git commit -m "add 2 txt files"
+git add .; git commit -m "add 2 txt files"
 
  13. Отправить сразу 2 файла на внешний репозиторий.
 git push
 
  14. На веб интерфейсе создать файл bug_report.txt.
+dd file -> create new file -> name your file " bug_report.txt"
 
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Нажимаем "Commite changes"
 
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+Edit this file -> добавляем баг репорт в фотмате txt.
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Нажимаем "Commite changes"
 
  18. Синхронизировать внешний и локальный репозиторий TXT
 git pull
