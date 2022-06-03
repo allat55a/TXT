@@ -39,7 +39,7 @@ git add .; git commit -m "add 2 txt files"
 git push
 
  14. На веб интерфейсе создать файл bug_report.txt.
-dd file -> create new file -> name your file " bug_report.txt"
+add file -> create new file -> name your file " bug_report.txt"
 
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 Нажимаем "Commite changes"
